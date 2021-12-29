@@ -1,0 +1,18 @@
+@import url('./theme.css');
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

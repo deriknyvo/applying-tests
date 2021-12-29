@@ -1,0 +1,19 @@
+:root {
+  --color-primary: #6750a4;
+  --color-surface: #fffbfe;
+
+  --elevation-level1: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  --elevation-level2: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+    
+  --typescale-label-large-font: "Roboto Medium";
+  --typescale-label-large-line-height: 20px;
+  --typescale-label-large-size: 14px;
+  --typescale-label-large-tracking: 0.1;
+  --typescale-label-large-weight: 500;
+  
+  --color-primary-hover-state-layer-opacity: rgba(103, 80, 164, 8%);
+  --color-primary-focus-state-layer-opacity: rgba(103, 80, 164, 12%);
+  --color-primary-pressed-state-layer-opacity: rgba(103, 80, 164, 12%);
+}
