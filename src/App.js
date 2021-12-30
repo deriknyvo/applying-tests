@@ -7,7 +7,9 @@ function App() {
   const [list, setList] = useState([]);
 
   const handleButtonClick = (name, email) => {
-    setList([...list, `${name} | ${email}`]);
+    if (name && email) {
+      setList([...list, `${name} | ${email}`]);
+    }
   }
 
   return (

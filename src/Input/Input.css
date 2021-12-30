@@ -2,6 +2,7 @@
   position: relative;
   height: 56px;
   min-width: 280px;
+  margin-bottom: 24px;
 }
 
 .input label {
@@ -48,4 +49,19 @@
 
 .input input:focus::placeholder {
   opacity: 1;
+}
+
+.input input:invalid {
+  border-bottom-color: #b00020;
+}
+
+.input input:invalid + label {
+  color: #b00020;
+}
+
+.input .error-label {
+  font-size: 12px;
+  color: #b00020;
+  position: relative;
+  left: 16px;
 }
