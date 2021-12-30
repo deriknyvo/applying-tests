@@ -1,29 +1,33 @@
-button {
-    height: 40px;
-    padding: 0 24px;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    background-color: var(--color-surface);
-    color: var(--color-primary);
-    box-shadow: var(--elevation-level1);
-    font-family: var(--typescale-label-large-font);
-    font-size: var(--typescale-label-large-size);
-    letter-spacing: var(--typescale-label-large-tracking);
-    font-weight: var(--typescale-label-large-weight);
+.button {
+  height: 40px;
+  padding: 0 24px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+  box-shadow: var(--elevation-level1);
+  font-family: var(--typescale-label-large-font);
+  font-size: var(--typescale-label-large-size);
+  letter-spacing: var(--typescale-label-large-tracking);
+  font-weight: var(--typescale-label-large-weight);
 }
 
-button:hover {
-    background-color: var(--color-primary-hover-state-layer-opacity);
-    box-shadow: var(--elevation-level2);
+.button:hover {
+  background-color: var(--color-primary-hover-state-layer-opacity);
+  box-shadow: var(--elevation-level2);
 }
 
-button:active {
-    background-color: var(--color-primary-pressed-state-layer-opacity);
-    box-shadow: var(--elevation-level1);
+.button:active {
+  background-color: var(--color-primary-pressed-state-layer-opacity);
+  box-shadow: var(--elevation-level1);
 }
 
-button:focus {
-    background-color: var(--color-primary-focus-state-layer-opacity);
-    box-shadow: var(--elevation-level1);
+.button:focus {
+  background-color: var(--color-primary-focus-state-layer-opacity);
+  box-shadow: var(--elevation-level1);
+}
+
+.button label {
+  cursor: pointer;
 }
