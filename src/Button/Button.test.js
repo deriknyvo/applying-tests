@@ -5,6 +5,7 @@ describe('Button', () => {
   test('renderizar o texto na label', () => {
     render(<Button text="Teste" />);
     const linkElement = screen.getByText(/teste/i);
+
     expect(linkElement).toBeInTheDocument();
   });
 
@@ -13,6 +14,7 @@ describe('Button', () => {
     render(<Button text="Teste" onClick={click} />);
     const linkElement = screen.getByText(/teste/i);
     fireEvent.click(linkElement);
+
     expect(click).toHaveBeenCalled();
   });
 })
